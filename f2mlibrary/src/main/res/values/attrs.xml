@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LiquidRadioButton">
+        <attr name="lrb_innerCircleRadius" format="dimension"/>
+        <attr name="lrb_strokeRadius" format="dimension"/>
+        <attr name="lrb_strokeWidth" format="dimension"/>
+        <attr name="lrb_outterPadding" format="dimension"/>
+        <attr name="lrb_explodeCount" format="integer"/>
+        <attr name="lrb_inAnimDuration" format="integer"/>
+        <attr name="lrb_outAnimDuration" format="integer"/>
+        <attr name="lrb_checkedColor" format="color"/>
+        <attr name="lrb_unCheckedColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeLayouts">
+        <attr name="leftItemColors" format="reference" />
+        <attr name="leftItemIcons" format="reference" />
+        <attr name="rightItemColors" format="reference" />
+        <attr name="leftTextColors" format="reference" />
+        <attr name="leftIconColors" format="reference" />
+        <attr name="rightIconColors" format="reference" />
+        <attr name="rightTextColors" format="reference" />
+        <attr name="rightItemIcons" format="reference" />
+        <attr name="swipeItemWidth" format="dimension" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="foregroundLayout" format="reference" />
+        <attr name="leftStrings" format="reference" />
+        <attr name="rightStrings" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textTopMargin" format="dimension" />
+        <attr name="customFont" format="string" />
+        <attr name="canFullSwipeFromLeft" format="boolean"/>
+        <attr name="canFullSwipeFromRight" format="boolean"/>
+        <attr name="autoHideSwipe" format="boolean" />
+        <attr name="onlyOneSwipe" format="boolean" />
+
+    </declare-styleable>
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+
+        <attr name="mode">
+            <enum name="normal" value="0" />
+            <enum name="same_level"   value="1" />
+        </attr>
+
+        <attr name="flingVelocity" format="integer" />
+
+        <attr name="minDistRequestDisallowParent" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallGridPulse" value="0"/>
+            <flag name="BallClipRotatePulse" value="1"/>
+        </attr>
+        <attr name="indicator_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RibbonLayout">
+        <attr name="header_text" format="string"/>
+        <attr name="header_textSize" format="integer"/>
+        <attr name="header_textColor" format="color"/>
+        <attr name="header_ribbonColor" format="color"/>
+        <attr name="header_ribbonRadius" format="integer"/>
+        <attr name="header_padding" format="integer"/>
+        <attr name="show_header" format="boolean"/>
+        <attr name="bottom_text" format="string"/>
+        <attr name="bottom_textSize" format="integer"/>
+        <attr name="bottom_textColor" format="color"/>
+        <attr name="bottom_ribbonColor" format="color"/>
+        <attr name="bottom_height" format="integer"/>
+        <attr name="bottom_padding" format="integer"/>
+        <attr name="show_bottom" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="RibbonView">
+
+        <attr name="ribbonFillColor" format="color" />
+        <attr name="ribbonStrokeColor" format="color"/>
+        <attr name="ribbonStrokeWidth" format="dimension" />
+        <attr name="ribbonArcLength" format="integer" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_showShadow" format="boolean" />
+        <attr name="fab_shadowColor" format="color" />
+        <attr name="fab_shadowRadius" format="dimension" />
+        <attr name="fab_shadowXOffset" format="dimension" />
+        <attr name="fab_shadowYOffset" format="dimension" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_showAnimation" format="reference" />
+        <attr name="fab_hideAnimation" format="reference" />
+        <attr name="fab_label" format="string" />
+        <attr name="fab_elevationCompat" format="dimension" />
+        <attr name="fab_progress_color" format="color" />
+        <attr name="fab_progress_backgroundColor" format="color" />
+        <attr name="fab_progress_indeterminate" format="boolean" />
+        <attr name="fab_progress_max" format="integer" />
+        <attr name="fab_progress" format="integer" />
+        <attr name="fab_progress_showBackground" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MaterialEditText">
+        <attr name="met_baseColor" format="color" />
+        <attr name="met_primaryColor" format="color" />
+        <attr name="met_floatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <attr name="met_errorColor" format="color" />
+        <attr name="met_minCharacters" format="integer" />
+        <attr name="met_maxCharacters" format="integer" />
+        <attr name="met_singleLineEllipsis" format="boolean" />
+        <attr name="met_minBottomTextLines" format="integer" />
+        <attr name="met_helperText" format="string" />
+        <attr name="met_helperTextColor" format="color" />
+        <attr name="met_accentTypeface" format="string" />
+        <attr name="met_typeface" format="string" />
+        <attr name="met_floatingLabelText" format="string" />
+        <attr name="met_floatingLabelPadding" format="dimension" />
+        <attr name="met_hideUnderline" format="boolean" />
+        <attr name="met_underlineColor" format="color" />
+        <attr name="met_autoValidate" format="boolean" />
+        <attr name="met_iconLeft" format="reference" />
+        <attr name="met_iconRight" format="reference" />
+        <attr name="met_iconPadding" format="dimension" />
+        <attr name="met_clearButton" format="boolean" />
+        <attr name="met_floatingLabelTextSize" format="dimension" />
+        <attr name="met_floatingLabelTextColor" format="color" />
+        <attr name="met_bottomTextSize" format="dimension" />
+        <attr name="met_floatingLabelAlwaysShown" format="boolean" />
+        <attr name="met_helperTextAlwaysShown" format="boolean" />
+        <attr name="met_floatingLabelAnimating" format="boolean"/>
+        <attr name="met_textColor" format="color" />
+        <attr name="met_textColorHint" format="color" />
+        <attr name="met_validateOnFocusLost" format="boolean"/>
+        <attr name="met_checkCharactersCountAtBeginning" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="BBox">
+        <attr name="check_style">
+            <enum name="fork" value="0" />
+            <enum name="hook" value="1" />
+        </attr>
+        <attr name="color_before" format="color" />
+        <attr name="color_after" format="color" />
+        <attr name="check_text" format="string" />
+        <attr name="show_border" format="boolean"/>
+        <attr name="is_circle_border" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border" format="boolean"/>
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_shadow" format="boolean"/>
+        <attr name="civ_shadow_color" format="color"/>
+        <attr name="civ_shadow_radius" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="MultiLevelListView">
+        <attr name="nestType">
+            <enum name="single" value="0" />
+            <enum name="multiple" value="1" />
+        </attr>
+
+        <attr name="alwaysExtended" format="boolean" />
+        <attr name="list" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MultiSnapRecyclerView">
+        <attr name="msrv_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="start" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+        <attr name="msrv_snap_count" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Badge">
+        <attr name="nbTextSize" format="dimension"/>
+        <attr name="nbTextColor" format="color" />
+        <attr name="nbBackground" format="reference" />
+        <attr name="nbAnimationEnabled" format="boolean" />
+        <attr name="nbAnimationDuration" format="integer" />
+        <attr name="nbMaxTextLength" format="integer" />
+        <attr name="nbEllipsizeText" format="string" />
+    </declare-styleable>
+</resources>

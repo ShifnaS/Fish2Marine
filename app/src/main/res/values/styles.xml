@@ -1,0 +1,166 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="matchtoolarlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+    <style name="viewlayout" parent="@style/layoutmatch">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="edittext_loginstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="edittext_pwdstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="toggle_password">
+        <item name="android:layout_height">@dimen/visible</item>
+        <item name="android:layout_width">@dimen/visible</item>
+        <item name="android:background">@drawable/button_toggle</item>
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:layout_marginBottom">@dimen/margimshowpassword</item>
+        <item name="android:padding">@dimen/paddingshowpassword</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+
+    </style>
+    <style name="loginbutton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/loginb</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/logintext</item>
+        <item name="android:textColor">@android:color/white</item>
+        <!-- <item name="android:visibility">gone</item>-->
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="rememberlayout" parent="@style/layoutmatchwrap">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/rmlayout</item>
+        <item name="android:layout_marginRight">@dimen/rmlayout</item>
+        <!-- <item name="android:visibility">gone</item>-->
+    </style>
+    <style name="remembercheckbox" parent="@style/layoutwrap">
+        <item name="android:padding">@dimen/checkpadding</item>
+    </style>
+
+    <style name="layoutmatch">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="layoutmatchwrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="layoutwrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="RatingBar" parent="AppTheme">
+        <item name="colorControlNormal">@color/starNormalColor</item>
+        <item name="colorControlActivated">@color/starSelectedColor</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorMediumPurple</item>
+        <item name="colorButtonNormal">@color/colorPurpleHeart</item>
+    </style>
+
+    <style name="list_CardView" parent="CardView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+    <style name="MRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorAccent">@color/f2mcolor</item>
+        <item name="colorControlHighlight">@color/f2mcolor</item>
+        <item name="android:colorPressedHighlight">@color/f2mcolor</item>
+        <item name="colorPrimaryDark">@color/f2mcolor</item>
+        <item name="colorPrimary">@color/f2mcolor</item>
+        <item name="colorControlActivated">@color/f2mcolor</item>
+    </style>
+   <!-- <style name="CardView" parent="CardView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="contentPadding">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>-->
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="Spinner">
+        <item name="colorControlNormal">#aa2b00</item>
+        <item name="colorControlActivated">#aa2b00</item>
+    </style>
+    <style name="FloatingButtonStyle">
+        <item name="fab_size">normal</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">#FFFBFB</item>
+        <item name="fab_colorNormal">@color/f2mcolor</item>
+        <item name="fab_colorPressed">@color/f2mcolor</item>
+        <item name="fab_colorRipple">@color/colorPrimary</item>
+    </style>
+    <style name="MenuButtonsStyle">
+        <item name="fab_size">normal</item>
+        <item name="fab_showAnimation">@anim/jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/jump_to_down</item>
+        <item name="fab_shadowColor">#FFEDCF</item>
+        <item name="fab_colorNormal">@color/green</item>
+        <item name="fab_colorPressed">@color/green</item>
+        <item name="fab_colorRipple">@color/green</item>
+    </style>
+</resources>

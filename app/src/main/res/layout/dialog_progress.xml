@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="10dp">
+    <com.smacon.f2mlibrary.Progress.AVLoadingIndicatorView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/loading"
+        app:indicator="BallClipRotatePulse"
+        app:indicator_color="@color/f2mcolor"/>
+</LinearLayout>

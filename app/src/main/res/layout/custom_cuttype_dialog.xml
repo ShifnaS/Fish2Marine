@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/mlistview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <!-- <ImageView
+            android:id="@+id/img_loader_brands"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="invisible"
+            android:layout_gravity="center"/>-->
+    <com.smacon.f2mlibrary.Progress.AVLoadingIndicatorView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/indicator"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        app:indicator="BallGridPulse"
+        app:indicator_color="#416DFE"/>
+</FrameLayout>

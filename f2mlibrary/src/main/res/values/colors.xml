@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pale_magenta_90">#e5de63b3</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f25a59</color>
+    <color name="shadow">#66000000</color>
+    <color name="f2mcolor">#233e99</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+
+    <color name="mt_red">#FF3366</color>
+    <color name="mt_gray">#eeeeee</color>
+    <color name="mt_gray0">#F8F8F9</color>
+    <color name="mt_gray1">#BFC4CA</color>
+    <color name="mt_gray2">#BBBBBE</color>
+    <color name="mt_gray3">#77777D</color>
+    <color name="mt_gray4">#8E959E</color>
+    <color name="mt_gray5">#F8F8F9</color>
+    <color name="mt_gray6">#B6B6B8</color>
+    <color name="mt_black">#1D1D26</color>
+
+
+    <!--Material Colors-->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="secondary_text_transparent_70">#B3727272</color>
+</resources>

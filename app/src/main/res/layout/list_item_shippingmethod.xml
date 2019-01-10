@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="left|center"
+        android:orientation="horizontal">
+        <com.smacon.f2mlibrary.Button.LiquidRadioButton.LiquidRadioButton
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:lrb_strokeWidth="3dp"
+            app:lrb_explodeCount="5"
+            app:lrb_outterPadding="5dp"
+            app:lrb_innerCircleRadius="5dp"
+            app:lrb_strokeRadius="10dp"
+            app:lrb_inAnimDuration="400"
+            app:lrb_outAnimDuration="300"
+            android:textColor="@color/colorGrayDark"
+            app:lrb_checkedColor="@color/f2mcolor"
+            app:lrb_unCheckedColor="@color/f2mcolor"
+            android:text="Test 3"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/method_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="Shipping method"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGrayDark"/>
+    </LinearLayout>
+</LinearLayout>

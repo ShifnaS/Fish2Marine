@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "332786647125",
+    "firebase_url": "https://fish2marine-200106.firebaseio.com",
+    "project_id": "fish2marine-200106",
+    "storage_bucket": "fish2marine-200106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332786647125:android:1b229f25becf2653",
+        "android_client_info": {
+          "package_name": "com.smacon.fish2marine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332786647125-bcbr7kkll1c4tnig7dj1as482rla22er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smacon.fish2marine",
+            "certificate_hash": "835139184ca6617700b468c72c9f22c1c67c6757"
+          }
+        },
+        {
+          "client_id": "332786647125-kss5r4en0hc8o3v2657og3lf4q08f78d.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "332786647125-kss5r4en0hc8o3v2657og3lf4q08f78d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1dh1-UbWFQRYP32Pz9pnWhpA-6G5_NUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332786647125-kss5r4en0hc8o3v2657og3lf4q08f78d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

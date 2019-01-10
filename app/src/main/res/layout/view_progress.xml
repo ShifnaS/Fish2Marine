@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/progress_view"
+    style="@style/viewlayout"
+    android:visibility="invisible">
+
+    <com.smacon.f2mlibrary.Progress.AVLoadingIndicatorView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/indicator"
+        app:indicator="BallGridPulse"
+        app:indicator_color="@color/colorAccentsecond"/>
+</LinearLayout>

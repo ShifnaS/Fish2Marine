@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smacon.f2mlibrary.SwipableLayout.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    app:iconSize="@dimen/icon_size"
+    app:rightItemColors="@array/rightColors"
+    app:rightIconColors="@array/rightDrawableColors"
+    app:canFullSwipeFromRight="true"
+    app:rightItemIcons="@array/rightDrawables"
+    app:rightStrings="@array/rightTexts"
+    app:rightTextColors="@array/rightTextColors"
+    app:swipeItemWidth="@dimen/swipe_item_width"
+    app:foregroundLayout="@layout/dummy3"
+    app:textSize="@dimen/text_size"/>

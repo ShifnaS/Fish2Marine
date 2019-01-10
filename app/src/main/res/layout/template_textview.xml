@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/method_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center"
+    android:text="Shipping method"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="8dp"
+    android:padding="10dp"
+    android:background="@drawable/commentbox_border"
+    android:textColor="@color/f2mcolor"/>
+

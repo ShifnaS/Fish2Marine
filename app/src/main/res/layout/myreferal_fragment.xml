@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <include layout="@layout/view_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/view_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include layout="@layout/view_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/sub_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview"
+                style="@style/list_CardView"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="3dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_margin="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:maxLines="2"
+                        android:textStyle="bold"
+                        android:text="Share the referral link and get points!"
+                        android:textColor="@color/f2mcolor"
+                        android:textSize="22dp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/f2mcolor"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/referal_img"/>
+                    <TextView
+                        android:id="@+id/referral_link"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your referral link: https://dev.fish2marine.com/r/vvMsOUUr/"
+                        android:textColor="@color/f2mcolor"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:maxLines="3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:textStyle="bold"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/txt_share"
+                        android:layout_height="40dp"
+                        android:layout_width="160dp"
+                        android:gravity="center"
+                        android:text=" Share with friends"
+                        android:padding="7dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="#ffffff"
+                        android:visibility="invisible"
+                        android:background="@color/f2mcolor"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/listcardview"
+                style="@style/list_CardView"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="3dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:id="@+id/referrallistheading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Referral Lst"
+                        android:textColor="@color/f2mcolor"
+                        android:textSize="22dp"
+                        android:layout_marginBottom="8dp"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/mrecyclerview"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.smacon.f2mlibrary.Button.FloatingActionButton
+            android:id="@+id/invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fab_add"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="right|bottom"
+            android:padding="10dp"
+            style="@style/MenuButtonsStyle" />
+    </FrameLayout>
+</FrameLayout>

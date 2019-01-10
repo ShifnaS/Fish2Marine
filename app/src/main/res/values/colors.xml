@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#233e99</color>
+    <color name="colorPrimaryDark">#233e99</color>
+    <color name="colorAccent">#233e99</color>
+    <color name="colorAccentsecond">#233e99</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="f2mcolor">#233e99</color>
+    <color name="red">#ff3030</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="starNormalColor">#c4c4c4</color>
+    <color name="starSelectedColor">#ffdc01</color>
+    <color name="colorMardiGras">#2D2C2D</color>
+    <color name="colorMediumPurple">#8C53E5</color>
+    <color name="colorPurpleHeart">#5E2EAA</color>
+    <color name="colorAmethyst">#824ED1</color>
+    <color name="colorCranberry">#DD467C</color>
+
+    <color name="colorGrayDark">#212121</color>
+    <color name="colorGray">#585858</color>
+    <color name="colorGrayLight">#BDBDBD</color>
+    <color name="colorBackground">#fafafa</color>
+
+
+    <color name="lightGray">#efebe9</color>
+
+    <color name="color1">#c8c8c8</color>
+    <color name="color2">#ff8f00</color>
+    <color name="color3">#d50000</color>
+    <color name="color4">#039be5</color>
+    <color name="color5">#b69100</color>
+    <color name="color6">#00b2ff</color>
+
+    <color name="textColor1">#455a64</color>
+    <color name="textColor2">#fffffe</color>
+    <color name="textColor3">#fffffe</color>
+
+    <color name="textColor">#ffffff</color>
+
+    <color name="rewardcolor1">#E8EAF6</color>
+    <color name="rewardcolor2">#9FA8DA</color>
+
+    <color name="green">#4CAF50</color>
+
+</resources>

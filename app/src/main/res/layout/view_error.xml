@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_view"
+    style="@style/viewlayout"
+    android:background="#ffffff"
+    android:visibility="invisible">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nointernet"/>
+
+    <TextView
+        android:id="@+id/error_label"
+        style="@style/layoutmatchwrap"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/error_label_retry"
+        android:layout_height="40dp"
+        android:layout_width="160dp"
+        android:gravity="center"
+        android:text=" TAP TO RETRY"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@color/f2mcolor"
+        android:textSize="14dp"/>
+</LinearLayout>

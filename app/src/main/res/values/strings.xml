@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Fish2Marine</string>
+    <string name="about_us_para1">Fishing industry is currently in a state where fish and seafood products with excessive preservatives and unhygienically processed are pushed to the market and the fishermen community are not compensated fairly for their efforts. FISH2MARINE Market Networks Pvt. Ltd., is a company incorporated by a team of traditional fishermen who will bring fresh/hygienically processed fish and seafood products to the market. Our business model will ensure, people depending on fishing for their livelihood will be compensated fairly as we source the products directly from the fishermen.</string>
+    <string name="about_us_para2">Our Shops leverage all modern technologies in retail/wholesale marine products operations, and we provide multiple shopping options to our customers, viz direct from store, online, phone orders etc. We will delivery to your home FREE (within 5 km radius of our store).</string>
+    <string name="about_us_para3">Fish being seasonal, please visit the website regularly to see the latest availability of your favorite fishes. Subscribing to our alerts will ensure you are updated daily on the most recent availability.</string>
+    <string name="facebook_app_id">203261190317522</string>
+    <string name="fb_login_protocol_scheme">fb203261190317522</string>
+
+    <string name="delete">DELETE</string>
+
+    <string-array name="titles">
+        <item>Prakash</item>
+        <item>Bhavin</item>
+        <item>Chirag</item>
+        <item>Yakub</item>
+    </string-array>
+
+    <string name="resend_otp">
+        <u>Resend OTP</u>
+    </string>
+
+    <!-- getString(String, Object...) does not support HTML tags directly, they need to be encoded first.
+Original string: <b>%1$s</b><br/><i>Place Id: %2$s</i><br/>Address: %3$s<br/>Phone: %4$s<br/>Website: %5$s-->
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+    <!-- button text -->
+    <string name="button_text_show_bottom_sheet">Show bottom sheet</string>
+    <string name="button_text_collapse_bottom_sheet">Collapse bottom sheet</string>
+    <string name="button_text_hide_bottom_sheet">Hide bottom sheet</string>
+    <string name="button_text_show_bottom_sheet_dialog">Show bottom sheet dialog</string>
+    <!-- bottom sheet behavior -->
+    <string name="string_bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+
+    <string name="text_pull_to_show_more">pull to show more content</string>
+    <string name="text_showing_sheet_content">Bottom sheet content</string>
+    <string name="text_click_me">Click me</string>
+
+    <string name="text_more_contet_to_user">The mackerel is one of the most abused fish by the local market as its often shined in ammonia given its very soft and decay prone nature.It is tastier and widely available across all Indian coasts. An excellent fish variety from sea having good meat quality.</string>
+</resources>

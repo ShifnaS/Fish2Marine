@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>Order History</item>
+        <item>Address Book</item>
+        <item>My Rewards</item>
+        <item>My Referals</item>
+        <item>My Profile</item>
+        <item>Contact Us</item>
+        <item>About</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_orderhistory</item>
+        <item>@drawable/ic_addressbook</item>
+        <item>@drawable/ic_rewards</item>
+        <item>@drawable/ic_referal</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_contactus</item>
+        <item>@drawable/ic_about_us</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <integer-array name="rightColors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+    </integer-array>
+
+    <integer-array name="rightTextColors">
+        <item>@color/textColor1</item>
+        <item>@color/textColor2</item>
+        <item>@color/textColor3</item>
+    </integer-array>
+
+    <integer-array name="rightDrawables">
+        <item>@mipmap/ic_add</item>
+        <item>@mipmap/ic_add</item>
+        <item>@mipmap/ic_add</item>
+    </integer-array>
+
+    <integer-array name="rightDrawableColors">
+        <item>@color/textColor1</item>
+        <item>@color/textColor2</item>
+        <item>@color/textColor3</item>
+    </integer-array>
+
+    <integer-array name="leftDrawables">
+        <item>@mipmap/ic_add</item>
+        <item>@mipmap/ic_add</item>
+        <item>@mipmap/ic_add</item>
+    </integer-array>
+
+    <string-array name="rightTexts">
+        <item>View</item>
+        <item>Update</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

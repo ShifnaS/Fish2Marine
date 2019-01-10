@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smacon.f2mlibrary.Button.LiquidRadioButton.LiquidRadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    app:lrb_strokeWidth="3dp"
+    app:lrb_explodeCount="5"
+    app:lrb_outterPadding="5dp"
+    app:lrb_innerCircleRadius="5dp"
+    app:lrb_strokeRadius="10dp"
+    app:lrb_inAnimDuration="400"
+    app:lrb_outAnimDuration="300"
+    android:textColor="@color/colorGrayDark"
+    app:lrb_checkedColor="@color/f2mcolor"
+    app:lrb_unCheckedColor="@color/f2mcolor"
+    android:text="Test 3"
+    android:textStyle="bold"
+    android:padding="10dp"
+    android:layout_margin="12dp"/>
+
